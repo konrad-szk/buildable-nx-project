@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { GetsData } from '../domain/gets-data';
-import { logMyData } from '../rxjs/log-my-data';
+import { logMyData } from '../../rxjs/log-my-data';
 
 @Injectable()
 export class HttpGetsDataService implements GetsData{

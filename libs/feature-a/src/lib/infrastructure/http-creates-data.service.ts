@@ -2,7 +2,7 @@ import { CreatesData } from '../domain/creates-data';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
-import { logMyData } from '@szk/core';
+import { logMyData } from '@szk/core/rxjs';
 
 @Injectable()
 export class HttpCreatesDataService implements CreatesData {
