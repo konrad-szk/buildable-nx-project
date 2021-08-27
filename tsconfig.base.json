@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@szk/core": ["libs/core/src/index.ts"],
+      "@szk/featureA": ["libs/feature-a/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
